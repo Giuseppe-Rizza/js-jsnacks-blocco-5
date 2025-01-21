@@ -24,7 +24,7 @@ const students = [
 
 
 const studentIdTwo = students.find((element) => {
-  return students.id === 2;
+  return element.id === 2;
 });
 
 console.log(studentIdTwo);
